@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+	width: 100%;
+	padding: 50px 0;
+	&__container{
+		display: flex;
+		justify-content: space-between;
+        width: 100%;
+        min-width: 1109px;
+	}
+	&__body {
+		display: flex;
+		gap: 95px;
+	}
+  &__link {
+	font-size: 18px;
+    font-style: bold;
+    color: black;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+       }
+  }
+  &__list {
+	  display: flex;
+      -moz-column-gap: 30px;
+           column-gap: 30px;
+      list-style: none;
+	  }
+  &__logo {
+    width: 90px;
+    height: 19.3px;
+  }
+}
+
+.icons_list{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+   }
